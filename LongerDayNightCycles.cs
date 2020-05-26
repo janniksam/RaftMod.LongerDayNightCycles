@@ -20,7 +20,7 @@
         private const string ModNamePrefix = "<color=#42a7f5>LongerDay</color><color=#FF0000>NightCycles</color>";
         private const string DayLengthArgumentsAreInvalid = "daylength: Needs one parameter.\n" +
                                                             "e.g. use \"daylength 60\" sets every day to be 60 minutes long. Default length is 20 minutes.";
-        private const string DayLengthArgumentAreOutOfRange = "moreanimals: The lenght needs to be 1 and 90.";
+        private const string DayLengthArgumentAreOutOfRange = "daylength: The lenght needs to be 1 and 90.";
 
         private float m_dayLength;
         private float m_elapsed;
